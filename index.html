@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href = "style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <div class="front">
+        <h1>Welcome To My Game</h1>
+        <button id ="scroal" > Let's Play Game</button>
+    </div>
+        
+    <main>
+       <button id="mode">🌙 Dark Mode</button>
+       <button id="playerBtn">2 PLAYERS 🎮</button>
+
+        <div class="box">
+            <div>
+                <button id="allReset">ALLr</button>
+            </div>
+            <h2>X and O Game</h2>
+            <div class="game">
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+                <button class="input"></button>
+            </div>
+            <div class="scoreboard">
+               <h3 id="status">Player X's turn</h3>
+               <span>X Wins: <span id="x-score">0</span></span>
+               <span>O Wins: <span id="o-score">0</span></span>
+            </div>
+            <button id="reset">Reset Game</button>
+        </div>
+    </main>
+</body>
+<script src="p1.js"></script>
+</html>
